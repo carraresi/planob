@@ -66,7 +66,7 @@ const Header = () => {
   const isEnglish = pathname.includes("/en");
 
   const links = [
-    { name: isEnglish ? "Blogs" : "Blogs", url: "/blogs" },
+    { name: isEnglish ? "Blog" : "Blog", url: "/blog" },
     { name: isEnglish ? "Contact Us" : "Fale conosco", url: "#contact" },
   ];
 
